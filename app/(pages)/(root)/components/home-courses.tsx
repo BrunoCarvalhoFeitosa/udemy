@@ -1,5 +1,5 @@
 "use client"
-import { courses, coursesCloudComputing, coursesDatabase, coursesDesign, coursesMobileDevelopment, coursesQualityAssurance, coursesWebDevelopment } from "@/content"
+import { coursesCloudComputing, coursesDatabase, coursesDesign, coursesMobileDevelopment, coursesQualityAssurance, coursesWebDevelopment } from "@/content"
 import { AnimatePresence, motion } from "framer-motion"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/app/components/ui/tabs"
 import { TextGenerateEffect } from "@/app/components/ui/text-generate-effect"

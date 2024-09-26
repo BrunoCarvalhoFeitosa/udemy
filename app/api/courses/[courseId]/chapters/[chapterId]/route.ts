@@ -65,7 +65,7 @@ export async function PATCH(req: Request, { params }: { params: { courseId: stri
 
             const asset = await video.assets.create({
                 input: values.videoUrl,
-                playback_policy: "public",
+                playback_policy: ["public"],
                 test: false,
             })
 

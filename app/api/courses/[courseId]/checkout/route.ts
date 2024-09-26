@@ -43,7 +43,7 @@ export async function POST(req: Request, { params}: { params: { courseId: string
                     currency: "BRL",
                     product_data: {
                         name: course.title,
-                        description: course.description
+                        description: course.description!
                     },
                     unit_amount: Math.round(course.price! * 100)
                 }

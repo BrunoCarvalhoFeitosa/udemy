@@ -58,7 +58,7 @@ export const HomeFaq = () => {
                         </AccordionTrigger>
                         <AccordionContent>
                             Para se inscrever em um curso, basta criar uma conta, navegar pelos cursos disponíveis e 
-                            clicar no botão "Inscreva-se" no curso desejado. Siga as instruções para finalizar a compra.
+                            clicar no botão &quot;Inscreva-se&quot; no curso desejado. Siga as instruções para finalizar a compra.
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-3">

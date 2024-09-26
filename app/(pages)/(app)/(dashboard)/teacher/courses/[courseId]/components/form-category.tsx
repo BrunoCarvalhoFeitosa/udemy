@@ -104,7 +104,7 @@ export const FormCategory = ({ initialData, courseId, options }: FormCategoryPro
                                     <FormItem>
                                         <FormControl>
                                             <Combobox
-                                                options={...options}
+                                                options={options}
                                                 {...field}
                                             />
                                         </FormControl>

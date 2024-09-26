@@ -216,7 +216,7 @@ export const SignInForm = () => {
                     className="space-y-6"
                 >
                     <h1 className="font-bold">
-                        Clique em "resetar senha agora", um código será enviado ao seu e-mail.
+                        Clique em &quot;resetar senha agora&quot;, um código será enviado ao seu e-mail.
                     </h1>
                     <div className="flex flex-col items-center gap-3">
                         <SignIn.SupportedStrategy
