@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "studio": "npx prisma studio",
+    "postinstall": "prisma generate",
     "seed:categories": "node scripts/seed.ts"
   },
   "dependencies": {
