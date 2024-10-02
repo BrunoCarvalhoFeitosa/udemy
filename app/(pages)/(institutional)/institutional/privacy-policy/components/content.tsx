@@ -458,10 +458,10 @@ export const Content = () => {
                         seguintes canais:
                     </p>
                     <p className="mb-3 text-base text-zinc-900">
-                        [Bruno Carvalho Feitosa (339.933.425-08)]
+                        [Bruno Carvalho Feitosa (999.999.999-09)]
                     </p>
                     <p className="mb-3 text-base text-zinc-900">
-                        contato@healthcare.com.br
+                        contato@udemy.com.br
                     </p>
                 </div>
             </div>

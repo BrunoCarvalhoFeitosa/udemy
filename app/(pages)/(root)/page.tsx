@@ -1,12 +1,11 @@
 import { Fragment } from "react"
 import { HeaderDesktop } from "@/app/components/common/header-desktop"
 import { HeaderMobile } from "@/app/components/common/header-mobile"
-import { Footer } from "@/app/components/common/footer"
 import { HomeHero } from "@/app/(pages)/(root)/components/home-hero"
 import { HomeCourses } from "@/app/(pages)/(root)/components/home-courses"
-import { HomeContent } from "@/app/(pages)/(root)/components/home-content"
 import { HomeTestimonials } from "./components/home-testimonials"
 import { HomeFaq } from "@/app/(pages)/(root)/components/home-faq"
+import { Footer } from "@/app/components/common/footer"
 
 const HomePage = () => {
     return (
@@ -16,7 +15,6 @@ const HomePage = () => {
             <main>
                 <HomeHero />
                 <HomeCourses />
-                <HomeContent />
                 <HomeTestimonials />
                 <HomeFaq />
             </main>

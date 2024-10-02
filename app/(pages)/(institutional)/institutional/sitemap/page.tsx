@@ -1,23 +1,15 @@
-import { HeaderDesktop } from "@/app/components/common/header-desktop"
-import { HeaderMobile } from "@/app/components/common/header-mobile"
-import { HeaderTitle } from "../components/header-title"
-import { Content } from "./components/content"
-import { Footer } from "@/app/components/common/footer"
+import { HeaderTitle } from "@/app/(pages)/(institutional)/components/header-title"
+import { Content } from "@/app/(pages)/(institutional)/institutional/sitemap/components/content"
 
 const SitemapPage = () => {
     return (
-        <div>
-            <HeaderDesktop />
-            <HeaderMobile />
-            <main>
-                <HeaderTitle
-                    title="Mapa do site"
-                    description="Todos os links pertencentes ao nosso site."
-                />
-                <Content />
-            </main>
-            <Footer />
-        </div>
+        <main>
+            <HeaderTitle
+                title="Mapa do site"
+                description="Todos os links pertencentes ao nosso site."
+            />
+            <Content />
+        </main>
     )
 }
 

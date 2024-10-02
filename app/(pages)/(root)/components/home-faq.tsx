@@ -39,8 +39,7 @@ export const HomeFaq = () => {
                     </div>
                 </AnimatePresence>
                 <Accordion
-                    type="single"
-                    collapsible
+                    type="multiple"
                     className="mt-8 w-full"
                 >
                     <AccordionItem value="item-1">

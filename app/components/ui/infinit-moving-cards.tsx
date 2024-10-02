@@ -94,7 +94,7 @@ export const InfiniteMovingCards = ({
                 {items.map((item, idx) => (
                     <li
                         key={item.name}
-                        className="w-[350px] max-w-full relative border flex-shrink-0 px-8 py-6 md:w-[450px]"
+                        className="group w-[350px] max-w-full relative border flex-shrink-0 px-8 py-6 md:w-[450px]"
                         style={{background: "#FFF"}}
                     >
                         <blockquote>
@@ -117,7 +117,7 @@ export const InfiniteMovingCards = ({
                                         {item.date}
                                     </span>
                                 </div>
-                                <div className="flex justify-center items-center w-14 h-14 rounded-full transition-colors duration-200 hover:bg-gray-200 cursor-pointer">
+                                <div className="flex justify-center items-center w-14 h-14 rounded-full transition-colors duration-200 group-hover:bg-gray-200 cursor-pointer">
                                     <FaXTwitter className="w-6 h-6 fill-black" />
                                 </div>
                             </div>

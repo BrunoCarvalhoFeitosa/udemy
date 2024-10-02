@@ -23,10 +23,9 @@ export const HeaderDesktop = () => {
                                     <NavigationMenuContent>
                                         <ul className="grid w-[400px] gap-2 xl:gap-3 p-4 md:w-[570px] xl:grid-cols-2 xl:w-[1000px] ">
                                             {categories.map((category) => (
-                                                <Link
+                                                <div
                                                     key={category.title}
                                                     title={category.title}
-                                                    href={category.href}
                                                     className="py-2 px-4 hover:bg-gray-100"
                                                 >
                                                     <p className="text-lg font-bold text-[#3C3B37]">
@@ -35,7 +34,7 @@ export const HeaderDesktop = () => {
                                                     <p className="text-[#3C3B37]">
                                                         {category.description}
                                                     </p>
-                                                </Link>
+                                                </div>
                                             ))}
                                         </ul>
                                     </NavigationMenuContent>

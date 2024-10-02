@@ -1,23 +1,15 @@
-import { HeaderDesktop } from "@/app/components/common/header-desktop"
-import { HeaderMobile } from "@/app/components/common/header-mobile"
-import { HeaderTitle } from "../components/header-title"
-import { Content } from "./components/content"
-import { Footer } from "@/app/components/common/footer"
+import { HeaderTitle } from "@/app/(pages)/(institutional)/components/header-title"
+import { Content } from "@/app/(pages)/(institutional)/institutional/use-terms/components/content"
 
 const UseTermsPolicyPage = () => {
     return (
-        <div>
-            <HeaderDesktop />
-            <HeaderMobile />
-            <main>
-                <HeaderTitle
-                    title="Termos de uso"
-                    description="Termos e condições gerais de uso do aplicativo/site."
-                />
-                <Content />
-            </main>
-            <Footer />
-        </div>
+        <main>
+            <HeaderTitle
+                title="Termos de uso"
+                description="Termos e condições gerais de uso do aplicativo/site."
+            />
+            <Content />
+        </main>
     )
 }
 

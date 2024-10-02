@@ -23,21 +23,25 @@ export const Footer = () => {
                         </h6>
                         <ul className="flex flex-col gap-3">
                             <li className="cursor-pointer">
-                                Blog
+                                <Link href="/institutional/blog">
+                                    Blog
+                                </Link>
                             </li>
                             <li className="cursor-pointer">
-                                Quem somos
+                                <Link href="/institutional/about-us">
+                                    Quem somos
+                                </Link>
                             </li>
                             <li className="cursor-pointer">
-                                Fale conosco
+                                <Link href="/institutional/contact-us">
+                                    Fale conosco
+                                </Link>
                             </li>
                             <li className="cursor-pointer">
-                                Mapa do site
+                                <Link href="/institutional/sitemap">
+                                    Mapa do site
+                                </Link>
                             </li>
-                            <li className="cursor-pointer">
-                                Ajuda e suporte
-                            </li>
-                            
                         </ul>
                     </div>
                     <div>
@@ -46,19 +50,24 @@ export const Footer = () => {
                         </h6>
                         <ul className="flex flex-col gap-3">
                             <li className="cursor-pointer">
-                                Termos de uso
+                                <Link href="/institutional/use-terms">
+                                    Termos de uso
+                                </Link>
                             </li>
                             <li className="cursor-pointer">
-                                Acessibilidade
+                                <Link href="/institutional/acessibility">
+                                    Acessibilidade
+                                </Link>
                             </li>
                             <li className="cursor-pointer">
-                                Política de cookies
+                                <Link href="/institutional/cookies-policy">
+                                    Política de cookies
+                                </Link>
                             </li>
                             <li className="cursor-pointer">
-                                Política de compras
-                            </li>
-                            <li className="cursor-pointer">
-                                Política de privacidade
+                                <Link href="/institutional/privacy-policy">
+                                    Política de privacidade
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -77,10 +86,9 @@ export const Footer = () => {
                                 Carreiras na Udemy
                             </li>
                             <li className="cursor-pointer">
-                                Seja afiliado Udemy
-                            </li>
-                            <li className="cursor-pointer">
-                                Obtenha o aplicativo
+                                <Link href="/institutional/download-app">
+                                    Obtenha o aplicativo
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -90,19 +98,24 @@ export const Footer = () => {
                         </h6>
                         <ul className="flex flex-col gap-3">
                             <li className="cursor-pointer">
-                                X.com
+                                <Link href="https://www.instagram.com/udemy">
+                                    Instagram
+                                </Link>
                             </li>
                             <li className="cursor-pointer">
-                                Instagram
+                                <Link href="https://www.tiktok.com/@udemy">
+                                    TikTok
+                                </Link>
                             </li>
                             <li className="cursor-pointer">
-                                TikTok
+                                <Link href="https://www.facebook.com/udemy/?locale=pt_BR">
+                                    Facebook
+                                </Link>
                             </li>
                             <li className="cursor-pointer">
-                                Facebook
-                            </li>
-                            <li className="cursor-pointer">
-                                LinkedIn
+                                <Link href="https://www.linkedin.com/company/udemybrasil">
+                                    LinkedIn
+                                </Link>
                             </li>
                         </ul>
                     </div>

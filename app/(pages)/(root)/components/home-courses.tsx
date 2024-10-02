@@ -66,7 +66,7 @@ export const HomeCourses = () => {
                             <div className="mt-6 lg:mt-10 w-full">
                                 <div className="mb-4">
                                     <h3 className="text-xl font-semibold text-[#3C3B37]">
-                                        Domine frameworks como React.js, Angular.js, Vue.js e muito mais.
+                                        Domine frameworks como React.js, Angular, Vue.js e muito mais.
                                     </h3>
                                     <p className="mt-2 lg:mt-0">
                                         Refere-se ao processo de criação e manutenção de sites e aplicações para a web. 

@@ -7,11 +7,11 @@ export const Content = () => {
             <div className="w-full">
                 <div className="mb-8">
                     <p className="mb-3 text-base text-zinc-900">
-                        Este documento, e todo o conteúdo do site é oferecido por Healthcare Centro Médico,
+                        Este documento, e todo o conteúdo do site é oferecido por Udemy,
                         neste termo representado apenas por “EMPRESA”, que regulamenta todos os direitos e obrigações com todos
                         que acessam o site, denominado neste termo como “VISITANTE”, reguardado todos os direitos previstos 
                         na legislação, trazem as cláusulas abaixo como requisito para acesso e visita do mesmo, situado no 
-                        endereço https://bruno-carvalho-feitosa-healthcare.vercel.app.
+                        endereço https://bruno-carvalho-feitosa-udemy.vercel.app.
                     </p>
                     <p className="mb-3 text-base text-zinc-900">
                         A permanência no website implica-se automaticamente na leitura e aceitação tácita do presente 
