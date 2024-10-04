@@ -83,7 +83,9 @@ export const Footer = () => {
                                 Torne-se instrutor
                             </li>
                             <li className="cursor-pointer">
-                                Carreiras na Udemy
+                                <Link href="/institutional/career">
+                                    Carreiras na Udemy
+                                </Link>
                             </li>
                             <li className="cursor-pointer">
                                 <Link href="/institutional/download-app">

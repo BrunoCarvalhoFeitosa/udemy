@@ -268,14 +268,14 @@ export const peoples = [
     {
       id: 2,
       name: "Robert Johnson",
-      designation: "Product Manager",
+      designation: "Desenvolvedor Front-End",
       image:
         "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     {
       id: 3,
       name: "Jane Smith",
-      designation: "Data Scientist",
+      designation: "Cientista de Dados",
       image:
         "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
@@ -289,14 +289,14 @@ export const peoples = [
     {
       id: 5,
       name: "Tyler Durden",
-      designation: "Soap Developer",
+      designation: "Desenvolvedor Back-end",
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
     },
     {
       id: 6,
       name: "Dora",
-      designation: "The Explorer",
+      designation: "Analista de Testes",
       image:
         "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
     }
@@ -854,5 +854,78 @@ export const testimonials = [
       name: "Bruno Carvalho Feitosa",
       title: "Desenvolvedor Front-end Sênior",
       date: "09/09/2024"
+    }
+]
+
+export const jobs = [
+    {
+        id: 1,
+        title: "Desenvolvedor Front-End Sênior",
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere facilis, tenetur voluptates porro aperiam ipsa quidem dolores voluptas dolore impedit hic illo. In necessitatibus ut reiciendis incidunt commodi id molestias?",
+        type: "Remoto",
+        salary: 7800,
+    },
+    {
+        id: 2,
+        title: "Desenvolvedor Back-End Sênior",
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere facilis, tenetur voluptates porro aperiam ipsa quidem dolores voluptas dolore impedit hic illo. In necessitatibus ut reiciendis incidunt commodi id molestias?",
+        type: "Remoto",
+        salary: 8500,
+    },
+    {
+        id: 3,
+        title: "Desenvolvedor Full Stack Sênior",
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere facilis, tenetur voluptates porro aperiam ipsa quidem dolores voluptas dolore impedit hic illo. In necessitatibus ut reiciendis incidunt commodi id molestias?",
+        type: "Remoto",
+        salary: 9600,
+    },
+    {
+        id: 4,
+        title: "Desenvolvedor Android",
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere facilis, tenetur voluptates porro aperiam ipsa quidem dolores voluptas dolore impedit hic illo. In necessitatibus ut reiciendis incidunt commodi id molestias?",
+        type: "Remoto",
+        salary: 9000,
+    },
+    {
+        id: 5,
+        title: "Desenvolvedor iOS",
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere facilis, tenetur voluptates porro aperiam ipsa quidem dolores voluptas dolore impedit hic illo. In necessitatibus ut reiciendis incidunt commodi id molestias?",
+        type: "Remoto",
+        salary: 10000,
+    },
+    {
+        id: 6,
+        title: "Quality Assurance Pleno",
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere facilis, tenetur voluptates porro aperiam ipsa quidem dolores voluptas dolore impedit hic illo. In necessitatibus ut reiciendis incidunt commodi id molestias?",
+        type: "Remoto",
+        salary: 6000,
+    },
+    {
+        id: 7,
+        title: "Scrum Master",
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere facilis, tenetur voluptates porro aperiam ipsa quidem dolores voluptas dolore impedit hic illo. In necessitatibus ut reiciendis incidunt commodi id molestias?",
+        type: "Remoto",
+        salary: 11000,
+    },
+    {
+        id: 8,
+        title: "Product Owner",
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere facilis, tenetur voluptates porro aperiam ipsa quidem dolores voluptas dolore impedit hic illo. In necessitatibus ut reiciendis incidunt commodi id molestias?",
+        type: "Remoto",
+        salary: 10000,
+    },
+    {
+        id: 9,
+        title: "Executivo de Contas",
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere facilis, tenetur voluptates porro aperiam ipsa quidem dolores voluptas dolore impedit hic illo. In necessitatibus ut reiciendis incidunt commodi id molestias?",
+        type: "Remoto",
+        salary: 5000,
+    },
+    {
+        id: 10,
+        title: "Lorem ipsum dolot",
+        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere facilis, tenetur voluptates porro aperiam ipsa quidem dolores voluptas dolore impedit hic illo. In necessitatibus ut reiciendis incidunt commodi id molestias?",
+        type: "Remoto",
+        salary: 7000,
     }
 ]

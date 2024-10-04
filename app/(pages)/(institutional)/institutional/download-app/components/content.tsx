@@ -30,7 +30,7 @@ export const Content = () => {
                             </div>
                             <div className="mb-10">
                                 <h3 className="text-3xl md:text-4xl font-bold leading-none text-[#3C3B37]">
-                                    Aprenda o que quiser
+                                    Aprenda o que quiser agora
                                 </h3>
                                 <p className="mt-2">
                                     Baixe o app Android ou iOS e inicie seus estudos hoje mesmo. Na Udemy você aprende
