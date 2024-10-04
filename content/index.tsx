@@ -923,9 +923,9 @@ export const jobs = [
     },
     {
         id: 10,
-        title: "Lorem ipsum dolot",
+        title: "Auxiliar Executivo de Contas",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere facilis, tenetur voluptates porro aperiam ipsa quidem dolores voluptas dolore impedit hic illo. In necessitatibus ut reiciendis incidunt commodi id molestias?",
         type: "Remoto",
-        salary: 7000,
+        salary: 2800,
     }
 ]
