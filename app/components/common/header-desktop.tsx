@@ -47,9 +47,9 @@ export const HeaderDesktop = () => {
                                     </Link>
                                 </NavigationMenuItem>
                                 <NavigationMenuItem>
-                                    <Link href="/docs" legacyBehavior passHref>
+                                    <Link href="/institutional/download-app" legacyBehavior passHref>
                                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                            Udemy Business
+                                            Obtenha o aplicativo
                                         </NavigationMenuLink>
                                     </Link>
                                 </NavigationMenuItem>
@@ -66,14 +66,14 @@ export const HeaderDesktop = () => {
                                         <NavigationMenuItem>
                                             <Link href="/sign-in" legacyBehavior passHref>
                                                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                                    Login
+                                                    Entre
                                                 </NavigationMenuLink>
                                             </Link>
                                         </NavigationMenuItem>
                                         <NavigationMenuItem>
                                             <Link href="/sign-up" legacyBehavior passHref>
                                                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                                    Cadastro
+                                                    Cadastre-se
                                                 </NavigationMenuLink>
                                             </Link>
                                         </NavigationMenuItem>

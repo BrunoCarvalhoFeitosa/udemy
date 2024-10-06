@@ -45,7 +45,9 @@ export const HeaderMobile = () => {
                                 </li>
                                 <li>
                                     <div className="text-lg font-semibold text-[#3C3B37]">
-                                        Udemy Business
+                                        <Link href="/institutional/download-app">
+                                            Obtenha o aplicativo
+                                        </Link>
                                     </div>
                                 </li>
                                 <li>
@@ -91,14 +93,14 @@ export const HeaderMobile = () => {
                                         <li>
                                             <div className="text-lg font-semibold text-[#3C3B37]">
                                                 <Link href="/sign-in">
-                                                    Login
+                                                    Entre
                                                 </Link>
                                             </div>     
                                         </li>
                                         <li>
                                             <div className="text-lg font-semibold text-[#3C3B37]">
                                                 <Link href="/sign-up">
-                                                    Cadastro
+                                                    Cadastre-se
                                                 </Link>
                                             </div>     
                                         </li>
