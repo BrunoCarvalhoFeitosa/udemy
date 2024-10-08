@@ -117,7 +117,7 @@ export const HomeCourses = () => {
                                                 </CarouselItem>
                                             ))}
                                         </CarouselContent>
-                                        <div className="mt-8 mr-10 xl:mr-0 flex justify-end gap-2">
+                                        <div className="mt-8 mr-10 2xl:mr-0 flex justify-end gap-2">
                                             <CarouselPrevious />
                                             <CarouselNext />
                                         </div>
@@ -242,7 +242,7 @@ export const HomeCourses = () => {
                                                 </CarouselItem>
                                             ))}
                                         </CarouselContent>
-                                        <div className="mt-8 mr-10 xl:mr-0 flex justify-end gap-2">
+                                        <div className="mt-8 mr-10 2xl:mr-0 flex justify-end gap-2">
                                             <CarouselPrevious />
                                             <CarouselNext />
                                         </div>
@@ -305,7 +305,7 @@ export const HomeCourses = () => {
                                                 </CarouselItem>
                                             ))}
                                         </CarouselContent>
-                                        <div className="mt-8 mr-10 xl:mr-0 flex justify-end gap-2">
+                                        <div className="mt-8 mr-10 2xl:mr-0 flex justify-end gap-2">
                                             <CarouselPrevious />
                                             <CarouselNext />
                                         </div>
@@ -367,7 +367,7 @@ export const HomeCourses = () => {
                                                 </CarouselItem>
                                             ))}
                                         </CarouselContent>
-                                        <div className="mt-8 mr-10 xl:mr-0 flex justify-end gap-2">
+                                        <div className="mt-8 mr-10 2xl:mr-0 flex justify-end gap-2">
                                             <CarouselPrevious />
                                             <CarouselNext />
                                         </div>
@@ -428,7 +428,7 @@ export const HomeCourses = () => {
                                                 </CarouselItem>
                                             ))}
                                         </CarouselContent>
-                                        <div className="mt-8 mr-10 xl:mr-0 flex justify-end gap-2">
+                                        <div className="mt-8 mr-10 2xl:mr-0 flex justify-end gap-2">
                                             <CarouselPrevious />
                                             <CarouselNext />
                                         </div>

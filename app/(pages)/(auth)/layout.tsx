@@ -9,9 +9,9 @@ const AuthLayout = ({ children }: { children: React.ReactNode }) => {
         <Fragment>
             <HeaderDesktop />
             <HeaderMobile />
-            <main className="flex justify-center items-center w-full lg:h-[45dvh] xl:h-[85dvh]">
+            <main className="flex justify-center items-center w-full">
                 <div className="px-0 md:px-8 flex items-center mx-auto w-full h-full">
-                    <div className="mx-auto py-8 lg:py-16 lg:px-10 flex flex-col justify-center w-full lg:w-2/3 h-full">
+                    <div className="mx-auto py-8 lg:py-16 lg:px-10 flex flex-col justify-center w-full xl:w-2/3 h-full">
                         <div className="w-full">
                             {children}
                         </div>
