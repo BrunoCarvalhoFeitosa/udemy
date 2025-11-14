@@ -40,11 +40,6 @@ export const HeaderMobile = () => {
                             <ul className="flex flex-col gap-3">
                                 <li>
                                     <div className="text-lg font-semibold text-[#3C3B37]">
-                                        Torne-se instrutor na Udemy
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="text-lg font-semibold text-[#3C3B37]">
                                         <Link href="/institutional/download-app">
                                             Obtenha o aplicativo
                                         </Link>

@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/app/components/ui/tabs"
 import { TextGenerateEffect } from "@/app/components/ui/text-generate-effect"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/app/components/ui/carousel"
+import Image from "next/image"
 
 export const HomeCourses = () => {
     const title = "Ampla seleção de cursos exclusivos e baratos"
@@ -86,8 +87,13 @@ export const HomeCourses = () => {
                                                     className="pl-1 basis-1/2 md:basis-1/3 lg:basis-1/4 2xl:basis-1/5"
                                                 >
                                                     <div key={index}>
-                                                        <div className="w-full h-40 bg-gray-300">
-
+                                                        <div className="w-full h-40 flex justify-center items-center overflow-hidden bg-gray-300">
+                                                            <Image
+                                                                src={course.image}
+                                                                width={600}
+                                                                height={600}
+                                                                alt={course.title}
+                                                            />
                                                         </div>
                                                         <div className="mt-2">
                                                             <h4 className="text-[14.5px] font-semibold text-[#3C3B37] line-clamp-2">
@@ -148,8 +154,13 @@ export const HomeCourses = () => {
                                                     className="pl-1 basis-1/2 md:basis-1/3 lg:basis-1/4 2xl:basis-1/5"
                                                 >
                                                     <div key={index}>
-                                                        <div className="w-full h-40 bg-gray-300">
-
+                                                        <div className="w-full h-40 flex justify-center items-center overflow-hidden bg-gray-300">
+                                                            <Image
+                                                                src={course.image}
+                                                                width={600}
+                                                                height={600}
+                                                                alt={course.title}
+                                                            />
                                                         </div>
                                                         <div className="mt-2">
                                                             <h4 className="text-[14.5px] font-semibold text-[#3C3B37] line-clamp-2">
@@ -211,8 +222,13 @@ export const HomeCourses = () => {
                                                     className="pl-1 basis-1/2 md:basis-1/3 lg:basis-1/4 2xl:basis-1/5"
                                                 >
                                                     <div key={index}>
-                                                        <div className="w-full h-40 bg-gray-300">
-
+                                                        <div className="w-full h-40 flex justify-center items-center overflow-hidden bg-gray-300">
+                                                            <Image
+                                                                src={course.image}
+                                                                width={600}
+                                                                height={600}
+                                                                alt={course.title}
+                                                            />
                                                         </div>
                                                         <div className="mt-2">
                                                             <h4 className="text-[14.5px] font-semibold text-[#3C3B37] line-clamp-2">
@@ -274,8 +290,13 @@ export const HomeCourses = () => {
                                                     className="pl-1 basis-1/2 md:basis-1/3 lg:basis-1/4 2xl:basis-1/5"
                                                 >
                                                     <div key={index}>
-                                                        <div className="w-full h-40 bg-gray-300">
-
+                                                        <div className="w-full h-40 flex justify-center items-center overflow-hidden bg-gray-300">
+                                                            <Image
+                                                                src={course.image}
+                                                                width={600}
+                                                                height={600}
+                                                                alt={course.title}
+                                                            />
                                                         </div>
                                                         <div className="mt-2">
                                                             <h4 className="text-[14.5px] font-semibold text-[#3C3B37] line-clamp-2">
@@ -336,8 +357,13 @@ export const HomeCourses = () => {
                                                     className="pl-1 basis-1/2 md:basis-1/3 lg:basis-1/4 2xl:basis-1/5"
                                                 >
                                                     <div key={index}>
-                                                        <div className="w-full h-40 bg-gray-300">
-
+                                                        <div className="w-full h-40 flex justify-center items-center overflow-hidden bg-gray-300">
+                                                            <Image
+                                                                src={course.image}
+                                                                width={600}
+                                                                height={600}
+                                                                alt={course.title}
+                                                            />
                                                         </div>
                                                         <div className="mt-2">
                                                             <h4 className="text-[14.5px] font-semibold text-[#3C3B37] line-clamp-2">
@@ -397,8 +423,13 @@ export const HomeCourses = () => {
                                                     className="pl-1 basis-1/2 md:basis-1/3 lg:basis-1/4 2xl:basis-1/5"
                                                 >
                                                     <div key={index}>
-                                                        <div className="w-full h-40 bg-gray-300">
-
+                                                        <div className="w-full h-40 flex justify-center items-center overflow-hidden bg-gray-300">
+                                                            <Image
+                                                                src={course.image}
+                                                                width={600}
+                                                                height={600}
+                                                                alt={course.title}
+                                                            />
                                                         </div>
                                                         <div className="mt-2">
                                                             <h4 className="text-[14.5px] font-semibold text-[#3C3B37] line-clamp-2">
